@@ -1,0 +1,19 @@
+body {
+    background-color:whitesmoke
+}
+
+    div {
+    position: center;
+}
+
+img {
+    border-radius: 50%;
+}
+
+nav {
+    background-color: grey;
+    text-align: center;
+    height: 30px;
+    font-size: 20px;
+    margin: 20px;
+}
