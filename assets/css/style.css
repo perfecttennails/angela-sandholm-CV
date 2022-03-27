@@ -1,3 +1,11 @@
+h1 {
+    text-align: center;
+}
+.column1 {
+    column-count: 2;
+    column-width: auto;
+}
+
 body {
     background-color:whitesmoke
 }
@@ -7,13 +15,13 @@ body {
 }
 
 img {
-    border-radius: 50%;
+    border-radius: 4%;
 }
 
 nav {
-    background-color: grey;
     text-align: center;
     height: 30px;
     font-size: 20px;
     margin: 20px;
-}
+    position: absolute;
+} 
