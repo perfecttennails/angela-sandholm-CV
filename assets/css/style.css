@@ -1,27 +1,49 @@
-h1 {
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans:ital,wght@1,300&display=swap');
+
+h1, h2 {
     text-align: center;
-}
-.column1 {
-    column-count: 2;
-    column-width: auto;
-}
+} 
 
 body {
-    background-color:whitesmoke
+    background-color:whitesmoke;
+    font-family: Montserrar, Open sans;
 }
 
-    div {
-    position: center;
+div {
+    padding: 100px;
+    border: 2px solid grey;
+    border-radius: 6px;
+    position: absolute;
+    
 }
 
 img {
-    border-radius: 4%;
+    border-radius: 6%;
 }
 
-nav {
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
     text-align: center;
-    height: 30px;
-    font-size: 20px;
-    margin: 20px;
-    position: absolute;
-} 
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+  }
+
+  
