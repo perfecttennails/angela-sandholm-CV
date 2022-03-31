@@ -33,6 +33,7 @@ body {
 .navbar {
   overflow: hidden;
   background-color: #333;
+  border-radius: 10px;
 }
 
 /* Style the navigation bar links */
@@ -73,21 +74,30 @@ body {
   flex: 30%;
   background-color: #f1f1f1;
   padding: 20px;
+  border-radius: 10px;
 }
 
 /* Main column */
 .main {   
-  -ms-flex: 70%; 
-  flex: 70%;
+  -ms-flex: 60%; 
+  flex: 60%;
   background-color: white;
   padding: 20px;
+  margin-left: 5px;
 }
+
+div {
+  margin-bottom: 5px;
+  border-radius: 10px;
+}
+
 
 /* Fake image, just for this example */
 img {
   border-radius: 6px;
 
 }
+
 
 /* Footer */
 .footer {
