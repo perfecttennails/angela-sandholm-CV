@@ -15,6 +15,11 @@ body {
   background-color: grey;
 }
 
+h1,h2,h3,h4 {
+  text-align:center;
+}
+
+
 /* Header/logo Title */
 .header {
   padding: 20px;
@@ -92,10 +97,17 @@ div {
 }
 
 
-/* Fake image, just for this example */
+/* image */
 img {
   border-radius: 6px;
+  position: center;
+}
 
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 
