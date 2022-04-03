@@ -62,6 +62,16 @@ h1,h2,h3,h4 {
   color: black;
 }
 
+.mobile-nav {
+  background: #F1F1F1;
+  position: fixed;
+  bottom: 0;
+  height: 65px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
 /* Column container */
 .row {  
   display: -ms-flexbox; 
@@ -130,7 +140,8 @@ img {
 /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
 @media screen and (max-width: 400px) {
   .navbar a {
-    float: none;
+    float: top;
     width: 100%;
   }
 }
+
